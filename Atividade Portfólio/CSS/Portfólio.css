@@ -1,0 +1,37 @@
+@charset "UTF-8";
+@import url('https://fonts.googleapis.com/css2?family=Kanit:ital,wght@1,300&display=swap');
+
+body {
+    background-image: url(../IMAGE/projeto-do-fundo-verde-escuro_1107-162.avif);
+    background-size: cover;
+    background-repeat: no-repeat;
+    font-family: 'Kanit', sans-serif;
+}
+
+nav {
+    text-align: center;
+}
+
+.an1 {
+    text-decoration: none;
+    color: white;
+    border: 2px solid #F2A71B;
+    border-radius: 20%;
+    margin-left: 20px;
+}
+
+.an2 {
+    text-decoration: none;
+    color: white;
+    border: 2px solid #F2A71B;
+    border-radius: 20%;
+
+}
+
+/* Paleta de cores que vou usar:
+#025E73
+#011F26
+#A5A692
+#BFB78F
+#F2A71B
+*/
