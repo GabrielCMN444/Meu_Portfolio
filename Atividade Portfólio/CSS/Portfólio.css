@@ -9,30 +9,53 @@
 
 body {
     font-family: 'Poppins', sans-serif;
+    background-color: white;
+    color: black;
 }
 
 /* Parte do header */
+
 header {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 20px 50px 20px 50px;
     width: 100%;
-    background-color: white;
+    height: 8vh;
     box-shadow: 2px 2px 2px black;
 }
 
-header nav {
+nav {
+    width: 100vw;
+    height: 100%;
     display: flex;
-    gap: 5%;
     align-items: center;
-    color: black;
+    justify-content: space-between;
 }
 
-nav {
-    display: flex;
-    gap: 16px;
-    align-items: center;
+
+.padg1 {
+    padding-left: 30px;
+    font-size: 25px;
+    font-weight: bolder;
+}
+
+.nav {
+    font-size: 40px;
+}
+
+.logo1 {
+    font-size: 40px;
+}
+
+.googleimg1 {
+    width: 40px;
+    height: 35px;
+}
+
+.gitimg {
+    width: 50px;
+    height: 45px;
+    padding-right: 30px;
 }
 
 /* Fechamento do header */
@@ -45,24 +68,24 @@ nav {
     padding-top: 130px;
 }
 
-.logo {
-    font-size: 40px;
+.logo2 {
+    font-size: 100px;
 }
 
 .span1 {
     color: #B200CF;
-    font-size: 40px;
+    font-size: 100px;
 }
 
 .estudo {
 
     font-weight: bold;
-    font-size: 20px;
+    font-size: 40px;
 }
 
 .guitarraimg1 {
     display: flex;
-align-content: e;
+    align-content: e;
 }
 
 /* Fechamento do home */
@@ -100,6 +123,11 @@ align-content: e;
 }
 
 .imgcss1 {
+    width: 55px;
+    height: 25px;
+}
+
+.imgjs1 {
     width: 55px;
     height: 25px;
 }
