@@ -106,9 +106,8 @@ nav {
 }
 
 /* Parte do sobre */
-.sobre1 {
-
-    margin-top: 38px;
+.sobremim1 {
+    font-size: 50px;
 }
 
 .span2 {
@@ -116,9 +115,23 @@ nav {
 }
 
 .sobrepar {
-    font-size: 18px;
+    font-size: 30px;
     font-weight: bold;
 }
+
+.sobre1 {
+    /* padding: 13rem 4rem 13rem 4rem; */
+    padding-inline: 4rem;
+    padding-block: 13rem 8rem;
+    display: flex;
+    justify-content: space-around;
+}
+
+.sobrep1 {
+    padding-top: 35px;
+}
+
+
 
 .ul1 {
     font-size: 30px;
